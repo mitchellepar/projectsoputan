@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/bcg"
+    tools:context=".pinus1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:src="@drawable/start5_opa_no" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Tempat penulisan data tamu dan ±28 Meter dapat papan selamat datang"
+            android:textAlignment="center"
+            android:textColor="#070707"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:src="@drawable/pinus1_1_selamatdatang" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Papan Selamat Datang Gunung Soputan dan ±230 Meter dapat persinggahan"
+            android:textAlignment="center"
+            android:textColor="#070707"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:src="@drawable/pinus1_2_persinggahankiri" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Persingggahan kiri, kanan ke arah basecamp ±1Km dapat jalan berair
+"
+            android:textAlignment="center"
+            android:textColor="#070707"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:src="@drawable/pinus1_3_jalurair" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Jalur sudah berair ±410 Meter dapat pertigaan mata air"
+            android:textAlignment="center"
+            android:textColor="#070707"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:src="@drawable/pinus1_4_lurusbasecampkanantempatair" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Pertigaan kanan ke arah tempat pengambilan air, lurus ke arah basecamp ±160 Meter"
+            android:textAlignment="center"
+            android:textColor="#070707"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:src="@drawable/basecamp1_soputan" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Sampai Basecamp"
+            android:textAlignment="center"
+            android:textColor="#070707"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+        android:id="@+id/imageView3"
+            android:layout_width="104dp"
+            android:layout_height="59dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.022"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/kembali" />
+
+    </LinearLayout>
+
+</ScrollView>
